@@ -1,8 +1,5 @@
 import React from 'react';
 import './styles.css';
-import MainBlog1 from './Assests/MainBlog.jpg';
-import BLog1A from './Assests/blog1A.png';
-import Acc1 from './Assests/Services3.jpg';
 
 import { RiBookmarkLine, RiHeart3Line } from "react-icons/ri";
 import { FaFacebookF, FaInstagram, FaTwitter, FaGoogle, FaPinterestP } from "react-icons/fa";
@@ -34,7 +31,7 @@ const BlogDetails = () => {
 
                     <div className="blogAcc">
                       <div className="imagesBlog">
-                      <img src={Acc1} alt="" />
+                      <img src="https://i.ibb.co/SXvyM8p/Services3.jpg" alt="" />
                       </div>
                       <p>by <span>Sugar Rosele</span> 2 hours ago</p>
                     </div>
@@ -48,7 +45,7 @@ const BlogDetails = () => {
                 </div>
 
                 <div className="blog_img">
-                  <img src={MainBlog1} alt="" />
+                  <img src="https://i.ibb.co/Y2fYFWT/Background-Img.jpg" alt="" />
                 </div>
 
                 <div className="blog_para">
@@ -64,7 +61,7 @@ const BlogDetails = () => {
                   <h6 className='single-topic-heading'>Lorem ipsum dolor sit amet cons</h6>
                   <p>Throughout our review process, we look at the design, features, battery life, spec, price and more for each smartwatch,
                     rank it against the competition and enter it into the list you'll find below.</p>
-                  <img src={BLog1A} alt="" />
+                  <img src="https://i.ibb.co/cymbpGX/blog1A.png" alt="" />
                   <p>Tortor, lobortis semper viverra ac, molestie tortor laoreet amet euismod et diam quis aliquam consequat porttitor
                     integer a nisl, in faucibus nunc et aenean turpis dui dignissim nec scelerisque ullamcorper eu neque, augue quam quis
                     lacus pretium eros est amet turpis nunc in turpis massa et eget facilisis ante molestie penatibus dolor volutpat, porta
