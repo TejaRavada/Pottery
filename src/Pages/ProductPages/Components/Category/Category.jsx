@@ -1,36 +1,31 @@
 import React from 'react'
 import './styles.css';
 import { Link } from 'react-router-dom'
-import cat1 from '../Assets/Banner1.jpg';
-import cat2 from '../Assets/Services1.jpg';
-import cat3 from '../Assets/Services2.jpg';
-import cat4 from '../Assets/Services3.jpg';
-import cat5 from '../Assets/Services4.jpg';
 
 const Category = () => {
   const categoryList = [
     {
-      image: cat1,
+      image: 'https://i.ibb.co/R20LjfC/Banner1.jpg',
       items: 'Fruits',
       count: '5',
     },
     {
-      image: cat2,
+      image: 'https://i.ibb.co/zbyTFbL/Services2.jpg',
       items: 'Bakery',
       count: '5',
     },
     {
-      image: cat3,
+      image: 'https://i.ibb.co/SXvyM8p/Services3.jpg',
       items: 'Meat',
       count: '5',
     },
     {
-      image: cat4,
+      image: 'https://i.ibb.co/1RJVgrt/Services4.jpg',
       items: 'SeaFood',
       count: '5',
     },
     {
-      image: cat5,
+      image: 'https://i.ibb.co/CpjjwtB/Services1.jpg',
       items: 'Groceries',
       count: '5',
     },

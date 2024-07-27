@@ -1,32 +1,29 @@
 import React from 'react';
 
 import './styels.css'
-import Rate1 from '../Assets/Services12.jpg';
-import Rate2 from '../Assets/Services13.jpg';
-import Rate3 from '../Assets/Services14.jpg';
 
 const TrendingNow = (props) => {
     const trendCat = [
         {
-            image: Rate1,
+            image: 'https://i.ibb.co/9G2bjBv/Services10.jpg',
             title: 'Chen Cardigan',
             rate: '52.85',
             rating: '3.5'
         },
         {
-            image: Rate2,
+            image: 'https://i.ibb.co/cYpbDpZ/Services11.jpg',
             title: 'Color Cardigan',
             rate: '52.85',
             rating: '3.5'
         },
         {
-            image: Rate3,
+            image: 'https://i.ibb.co/rdr9zpw/Services12.jpg',
             title: 'Chen Cardigan',
             rate: '52.85',
             rating: '3.5'
         },
         {
-            image: Rate1,
+            image: 'https://i.ibb.co/2YxMzhY/Services13.jpg',
             title: 'Chen Cardigan',
             rate: '52.85',
             rating: '3.5'
@@ -34,12 +31,12 @@ const TrendingNow = (props) => {
     ]
 
     const trendCat1 = [
-        Rate1,
-        Rate2,
-        Rate3,
-        Rate1,
-        Rate2,
-        Rate3
+        'https://i.ibb.co/QdGQ4YG/Services9.jpg',
+        'https://i.ibb.co/Nj2YF36/Services8.jpg',
+        'https://i.ibb.co/6rpNZ2s/Services7.jpg',
+        'https://i.ibb.co/Qv2jynd/Services6.jpg',
+        'https://i.ibb.co/3F3NqFJ/Services5.jpg',
+        'https://i.ibb.co/1RJVgrt/Services4.jpg'
     ]
     return (
         <>

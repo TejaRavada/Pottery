@@ -1,15 +1,7 @@
 import React from 'react';
-import Article1 from './Assests/Blog1.png';
-import Article2 from './Assests/Blog2.png';
-import Article3 from './Assests/Blog3.png';
-import Article4 from './Assests/Blog4.png';
-import Article5 from './Assests/Blog5.png';
-import Article6 from './Assests/Blog6.png';
-import Article7 from './Assests/Blog7.png';
-import Article8 from './Assests/Blog8.png';
-import Article9 from './Assests/Blog9.png';
+
 import { Link } from 'react-router-dom';
-// import FootSecond from '../../Components/Footer/FootSecond';
+
 import { FaRegHeart } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { FaImage } from "react-icons/fa";
@@ -19,16 +11,13 @@ import ShowList from '../../Components/ShowList/ShowList';
 import Breadcrubs from '../../Components/Breadecrubs/Breadcrubs';
 import Category from '../../Components/Category/Category';
 import TrendingNow from '../../Components/NewProducts/TrendingNow';
-// import Category from '../../Components/Category/Category';
-// import TrendingNow from '../../Components/TrendingNow/TrendingNow';
-// import Breadcurmb from '../../Components/Breadcrumb/Breadcurmb';
-// import ShowList from './ShowList';
+
 
 const Blog = () => {
 
   const articleRead = [
     {
-      image: Article1,
+      image: 'https://i.ibb.co/sg5SvTC/Blog1.png',
       icon: <FaRegHeart />,
       title: "side Dish",
       heading: 'The Intermediate Guide to Healthy Food',
@@ -37,7 +26,7 @@ const Blog = () => {
       min: '4 mins read'
     },
     {
-      image: Article2,
+      image: 'https://i.ibb.co/SdFVd0D/Blog2.png',
       icon: "",
       title: "side Dish",
       heading: 'The Intermediate Guide to Healthy Food',
@@ -46,7 +35,7 @@ const Blog = () => {
       min: '4 mins read'
     },
     {
-      image: Article3,
+      image: 'https://i.ibb.co/cTW38N9/Blog3.png',
       icon: "",
       title: "side Dish",
       heading: 'The Intermediate Guide to Healthy Food',
@@ -55,7 +44,7 @@ const Blog = () => {
       min: '4 mins read'
     },
     {
-      image: Article4,
+      image: 'https://i.ibb.co/QQkZBJw/Blog4.png',
       icon: <FaImage />,
       title: "side Dish",
       heading: 'The Intermediate Guide to Healthy Food',
@@ -64,7 +53,7 @@ const Blog = () => {
       min: '4 mins read'
     },
     {
-      image: Article5,
+      image: 'https://i.ibb.co/xLRK1pr/Blog5.png',
       icon: '',
       title: "side Dish",
       heading: 'The Intermediate Guide to Healthy Food',
@@ -73,7 +62,7 @@ const Blog = () => {
       min: '4 mins read'
     },
     {
-      image: Article6,
+      image: 'https://i.ibb.co/T8C3HTs/Blog6.png',
       icon: <GoVideo />,
       title: "side Dish",
       heading: 'The Intermediate Guide to Healthy Food',
@@ -82,7 +71,7 @@ const Blog = () => {
       min: '4 mins read'
     },
     {
-      image: Article7,
+      image: 'https://i.ibb.co/S69FM8R/Blog7.png',
       icon: '',
       title: "side Dish",
       heading: 'The Intermediate Guide to Healthy Food',
@@ -91,7 +80,7 @@ const Blog = () => {
       min: '4 mins read'
     },
     {
-      image: Article8,
+      image: 'https://i.ibb.co/jgdm7sq/Blog8.png',
       icon: '',
       title: "side Dish",
       heading: 'The Intermediate Guide to Healthy Food',
@@ -100,7 +89,7 @@ const Blog = () => {
       min: '4 mins read'
     },
     {
-      image: Article9,
+      image: 'https://i.ibb.co/XL57Sty/Blog9.png',
       icon: <FaLink />,
       title: "side Dish",
       heading: 'The Intermediate Guide to Healthy Food',

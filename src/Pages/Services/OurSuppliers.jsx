@@ -1,22 +1,6 @@
 import React from 'react';
 import './styles.css';
 
-import service1 from './Assets/Services1.jpg';
-import service2 from './Assets/Services2.jpg';
-import service3 from './Assets/Services3.jpg';
-import service4 from './Assets/Services4.jpg';
-import service5 from './Assets/Services5.jpg';
-import service6 from './Assets/Services6.jpg';
-import service7 from './Assets/Services7.jpg';
-import service8 from './Assets/Services8.jpg';
-import service9 from './Assets/Services9.jpg';
-import service10 from './Assets/Services10.jpg';
-import service11 from './Assets/Services11.jpg';
-import service12 from './Assets/Services12.jpg';
-import service13 from './Assets/Services13.jpg';
-import service14 from './Assets/Services14.jpg';
-
-
 const OurSuppliers = () => {
     return (
         <section className="our">
@@ -51,7 +35,7 @@ const OurSuppliers = () => {
                 <div className="suppliers">
 
                     <div className="suppliers-img">
-                        <img src={service1} alt="" />
+                        <img src="https://i.ibb.co/CpjjwtB/Services1.jpg" alt="" />
                     </div>
 
                     <div className="suppl-para">
@@ -70,7 +54,7 @@ const OurSuppliers = () => {
                         <p>Wool is a natural fiber with added performance attributes such as temperature regulation, durability, and natural water repellency. Considered a circular product by nature, wool can be recycled or biodegraded easily. Animal welfare is extremely important to us, and therefore we only source mulesing-free wool from producers that follow humane and eco-friendly processes aligned with our animal welfare guidelines.</p>
                     </div>
                     <div className="suppliers-img">
-                        <img src={service2} alt="" />
+                        <img src="https://i.ibb.co/zbyTFbL/Services2.jpg" alt="" />
                     </div>
 
                 </div>
@@ -82,24 +66,24 @@ const OurSuppliers = () => {
                     <h2 className='sub-heading'>Our Gallery</h2>
                     <div className="imag-col">
                         <div className="imag-items">
-                            <img src={service6} alt="" />
-                            <img src={service7} alt="" />
-                            <img src={service8} alt="" />
+                            <img src="https://i.ibb.co/Qv2jynd/Services6.jpg" alt="" />
+                            <img src="https://i.ibb.co/6rpNZ2s/Services7.jpg" alt="" />
+                            <img src="https://i.ibb.co/Nj2YF36/Services8.jpg" alt="" />
                         </div>
                         <div className="imag-items">
-                            <img src={service9} alt="" />
-                            <img src={service10} alt="" />
-                            <img src={service11} alt="" />
+                            <img src="https://i.ibb.co/QdGQ4YG/Services9.jpg" alt="" />
+                            <img src="https://i.ibb.co/9G2bjBv/Services10.jpg" alt="" />
+                            <img src="https://i.ibb.co/cYpbDpZ/Services11.jpg" alt="" />
                         </div>
                         <div className="imag-items">
-                            <img src={service12} alt="" />
-                            <img src={service13} alt="" />
-                            <img src={service14} alt="" />
+                            <img src="https://i.ibb.co/rdr9zpw/Services12.jpg" alt="" />
+                            <img src="https://i.ibb.co/2YxMzhY/Services13.jpg" alt="" />
+                            <img src="https://i.ibb.co/DwfWKKS/Services14.jpg" alt="" />
                         </div>
                         <div className="imag-items">
-                            <img src={service11} alt="" />
-                            <img src={service9} alt="" />
-                            <img src={service10} alt="" />
+                            <img src="https://i.ibb.co/CpjjwtB/Services1.jpg" alt="" />
+                            <img src="https://i.ibb.co/zbyTFbL/Services2.jpg" alt="" />
+                            <img src="https://i.ibb.co/SXvyM8p/Services3.jpg" alt="" />
                         </div>
                     </div>
                 </div>
@@ -110,7 +94,7 @@ const OurSuppliers = () => {
                 <div className="suppliers">
 
                     <div className="suppliers-img">
-                        <img src={service3} alt="" />
+                        <img src="https://i.ibb.co/SXvyM8p/Services3.jpg" alt="" />
                     </div>
 
                     <div className="suppl-para">
@@ -128,7 +112,7 @@ const OurSuppliers = () => {
                     </div>
 
                     <div className="suppliers-img">
-                        <img src={service4} alt="" />
+                        <img src="https://i.ibb.co/1RJVgrt/Services4.jpg" alt="" />
                     </div>
 
                 </div>
@@ -136,7 +120,7 @@ const OurSuppliers = () => {
                 <div className="suppliers">
 
                     <div className="suppliers-img">
-                        <img src={service5} alt="" />
+                        <img src="https://i.ibb.co/3F3NqFJ/Services5.jpg" alt="" />
                     </div>
 
                     <div className="suppl-para">

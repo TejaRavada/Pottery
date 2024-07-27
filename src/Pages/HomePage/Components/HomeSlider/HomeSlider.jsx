@@ -2,15 +2,14 @@ import React from 'react';
 import Slider from "react-slick";
 import './styles.css'
 
-import slider1 from './Assests/slider1.jpg';
-import slider2 from './Assests/slider2.jpg';
-import slider3 from './Assests/slider3.jpg';
-import slider4 from './Assests/slider4.jpg';
-import slider5 from './Assests/slider5.jpg';
-// import slider6 from './Assests/slider5.jpg';
-
 const HomeSlider = () => {
-    const images = [slider1, slider2, slider3, slider4, slider5];
+    const images = [
+        'https://i.ibb.co/qC1qdpW/slider1.jpg',
+        'https://i.ibb.co/yfYm8Zb/slider2.jpg',
+        'https://i.ibb.co/wyqcM92/slider3.jpg',
+        'https://i.ibb.co/SJm7rPf/slider4.jpg',
+        'https://i.ibb.co/FnLGHbB/slider5.jpg'
+    ];
 
     var settings = {
         dots: true,
@@ -43,16 +42,16 @@ const HomeSlider = () => {
                             <h2 className='banner-heading'>Seasonal or Trend- <br /> Related Hook</h2>
                             <p>"Refresh Your Spring Décor with Our New Pottery Line"</p>
                             <div className="btn-banner">
-                            <div className="subscribe-btn">
-                                <input
-                                    type="text"
-                                    placeholder='Enter your email'
-                                    name="Email"
-                                    required
-                                    autoComplete='off'
-                                    className='input' />
-                                <button type='submit' className='input' >Subscribe</button>
-                            </div>
+                                <div className="subscribe-btn">
+                                    <input
+                                        type="text"
+                                        placeholder='Enter your email'
+                                        name="Email"
+                                        required
+                                        autoComplete='off'
+                                        className='input' />
+                                    <button type='submit' className='input' >Subscribe</button>
+                                </div>
                             </div>
                         </form>
                     </div>

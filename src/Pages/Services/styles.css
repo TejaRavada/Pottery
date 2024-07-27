@@ -125,7 +125,7 @@
 
 .our .image::after
 {
-    background-image: url(./Assets/Banner1.jpg);
+    background-image: url("https://i.ibb.co/R20LjfC/Banner1.jpg");
     content:'';
     background-size: cover;
     background-repeat: no-repeat;

@@ -33,7 +33,7 @@
 
 .about .image::after
 {
-    background-image: url(./Assets/Banner1.jpg);
+    background-image: url("https://i.ibb.co/drqrczY/Banner1.jpg");
     content:'';
     background-size: cover;
     background-repeat: no-repeat;

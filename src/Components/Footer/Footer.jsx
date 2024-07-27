@@ -1,17 +1,6 @@
 import React from 'react'
 import './styles.css';
 
-import Logo from './Assests/Logo.jpg';
-import icon1 from './Assests/icon1.png';
-import icon2 from './Assests/icon2.png';
-import icon3 from './Assests/icon3.png';
-import icon4 from './Assests/icon4.png';
-import icon5 from './Assests/icon5.png';
-import icon6 from './Assests/icon6.png';
-import icon7 from './Assests/icon7.png';
-import icon8 from './Assests/icon8.png';
-import icon9 from './Assests/icon9.png';
-
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLocationOutline, IoLogoWhatsapp } from "react-icons/io5";
 
@@ -19,39 +8,39 @@ const Footer = () => {
 
   const footIcon = [
     {
-      icon: icon1,
+      icon: 'https://i.ibb.co/JnvFgdp/icon1.png',
       tittle: 'easy returns',
     },
     {
-      icon: icon2,
+      icon: 'https://i.ibb.co/Qk6z3XD/icon2.png',
       tittle: 'eco friendly',
     },
     {
-      icon: icon3,
+      icon: 'https://i.ibb.co/x3CddrG/icon3.png',
       tittle: 'dishwasher safe',
     },
     {
-      icon: icon4,
+      icon: 'https://i.ibb.co/xCK1hqS/icon4.png',
       tittle: 'lead free',
     },
     {
-      icon: icon5,
+      icon: 'https://i.ibb.co/qkG7F9h/icon5.png',
       tittle: 'microwave safe',
     },
     {
-      icon: icon6,
+      icon: 'https://i.ibb.co/47b6FPW/icon6.png',
       tittle: 'handmade',
     },
     {
-      icon: icon7,
+      icon: 'https://i.ibb.co/8NksgbQ/icon7.png',
       tittle: 'made in india',
     },
     {
-      icon: icon8,
+      icon: 'https://i.ibb.co/mJQPC9Q/icon8.png',
       tittle: 'cash on delivery',
     },
     {
-      icon: icon9,
+      icon: 'https://i.ibb.co/xY14kQQ/icon9.png',
       tittle: ' flexible payment',
     }
 
@@ -148,7 +137,7 @@ const Footer = () => {
               </div>
 
               <div className="footer-part col-3">
-                <img src={Logo} alt="" />
+                <img src="https://i.ibb.co/rcNcgGm/Logo.png" alt="" />
                 <div className="footer-add">
                   <h6>Amalfiee Ceramics</h6>
                   <p> <IoLocationOutline /> # 106, Venkateshwara Estate, Thotadaguddadahalli, Nagasandra Post, Bangalore - 560 073.</p>

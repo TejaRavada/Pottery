@@ -1,5 +1,4 @@
 import React from 'react'
-import Contact from './assets/contact-2.jpg'
 
 const ContactForm = () => {
   return (
@@ -79,7 +78,7 @@ const ContactForm = () => {
             </form>
           </div>
           <div className="contactFrom_img">
-            <img src={Contact} alt="" />
+            <img src="https://i.ibb.co/fqmmM1p/contact-2.jpg" alt="" />
           </div>
         </div>
       </section>

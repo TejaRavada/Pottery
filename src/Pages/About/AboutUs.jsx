@@ -1,23 +1,6 @@
 import React from 'react';
 import './styles.css';
 
-import Sub1 from './Assets/subtext1.jpg';
-import Sub2 from './Assets/subtext2.jpg';
-import Sub3 from './Assets/subtext3.jpg';
-import Sub4 from './Assets/subtext4.jpg';
-import Our1 from './Assets/Our1.jpg';
-import Our2 from './Assets/Our2.jpg';
-import Our3 from './Assets/Our3.jpg';
-import Our4 from './Assets/Our4.jpg';
-import Our5 from './Assets/Our5.jpg';
-import Our6 from './Assets/Our6.jpg';
-import Our7 from './Assets/Our7.jpg';
-import Our8 from './Assets/Our8.jpg';
-import Our9 from './Assets/Our9.jpg';
-import Our10 from './Assets/Our10.jpg';
-import Our11 from './Assets/Our11.jpg';
-import Our12 from './Assets/Our12.jpg';
-
 const AboutUs = () => {
   return (
     <>
@@ -92,22 +75,22 @@ const AboutUs = () => {
           <div className="images-btn">
 
             <div className="imagebtn">
-              <img src={Sub1} alt="" height={600} />
+              <img src="https://i.ibb.co/VmFwQQq/subtext1.jpg" alt="" height={600} />
               <button className='addBtn'>Processing</button>
             </div>
 
             <div className="imagebtn">
-              <img src={Sub2} alt="" height={400} />
+              <img src="https://i.ibb.co/FwQHFRJ/subtext2.jpg" alt="" height={400} />
               <button className='addBtn'>Materials</button>
             </div>
 
             <div className="imagebtn">
-              <img src={Sub3} alt="" height={400} />
+              <img src="https://i.ibb.co/s9jYpC1/subtext3.jpg" alt="" height={400} />
               <button className='addBtn'>Packaging </button>
             </div>
 
             <div className="imagebtn">
-              <img src={Sub4} alt="" height={600} />
+              <img src="https://i.ibb.co/bzyFXQ1/subtext4.jpg" alt="" height={600} />
               <button className='addBtn'>Product Caring</button>
             </div>
 
@@ -123,24 +106,24 @@ const AboutUs = () => {
 
             <div className="imag-col">
               <div className="imag-items">
-                <img src={Our1} alt="" />
-                <img src={Our2} alt="" />
-                <img src={Our3} alt="" />
-                <img src={Our4} alt="" />
+                <img src="https://i.ibb.co/VJPtLyY/Our1.jpg" alt="" />
+                <img src="https://i.ibb.co/DDTZhpL/Our2.jpg" alt="" />
+                <img src="https://i.ibb.co/1Z3q8yp/Our3.jpg" alt="" />
+                <img src="https://i.ibb.co/PNvVDvY/Our4.jpg" alt="" />
               </div>
               <div className="imag-items">
-                <img src={Our5} alt="" />
-                <img src={Our6} alt="" />
-                <img src={Our7} alt="" />
-                <img src={Our9} alt="" />
-                {/* <img src={Our8} alt="" /> */}
+                <img src="https://i.ibb.co/BP1jRtX/Our5.jpg" alt="" />
+                <img src="https://i.ibb.co/2hhCQj6/Our6.jpg" alt="" />
+                <img src="https://i.ibb.co/WxJGFgR/Our7.jpg" alt="" />
+                <img src="https://i.ibb.co/FDYNGnw/Our8.jpg" alt="" />
+                <img src="https://i.ibb.co/hYpq8zf/Our9.jpg" alt="" />
               </div>
               <div className="imag-items">
-                <img src={Our9} alt="" />
-                <img src={Our10} alt="" />
-                <img src={Our11} alt="" />
-                <img src={Our12} alt="" />
-                <img src={Our4} alt="" />
+                <img src="https://i.ibb.co/PQ7BKXr/Our10.jpg" alt="" />
+                <img src="https://i.ibb.co/w4G3xS0/Our11.jpg" alt="" />
+                <img src="https://i.ibb.co/rH6SCZj/Our12.jpg" alt="" />
+                <img src="https://i.ibb.co/3p37JqN/Our13.jpg" alt="" />
+                <img src="https://i.ibb.co/P5SCpJM/Our14.jpg" alt="" />
               </div>
             </div>
 

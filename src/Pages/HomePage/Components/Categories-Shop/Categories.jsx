@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css'
 
-import CeramicBan from './Assests/CeramicBan.jpg';
 import ProductPage from '../../../ProductPages/ProductPage';
 import { useData } from '../../../../Context/MyContext';
 import { Link } from 'react-router-dom';
@@ -47,7 +46,7 @@ const Categories = () => {
 
             <div className="ceramic-Ban-text">
                 <div className="ceramic-banner">
-                    <img src={CeramicBan} alt="" />
+                    <img src="https://i.ibb.co/1rS91BH/Ceramic-Ban.jpg" alt="" />
                     <div className="ceramic-text">
                         <h3>the poetry of moonlit nights</h3>
                         <Link to={`/product/Terracotta`}><button className='outline-btn'>Shop Now</button></Link>
