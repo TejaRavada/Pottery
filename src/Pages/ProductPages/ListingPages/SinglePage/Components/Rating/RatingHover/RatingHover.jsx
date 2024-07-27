@@ -2,13 +2,16 @@ import React from 'react';
 import './styles.css';
 import BarRating from './BarRating';
 
-const RatingHover = ({ averageRating, totalReviews, starPercentages }) => {
+const RatingHover = ({ averageRating = 0, totalReviews = 0, starPercentages = [0, 0, 0, 0, 0] }) => {
+  // Ensure starPercentages has 5 elements
+  const validStarPercentages = starPercentages.length === 5 ? starPercentages : [0, 0, 0, 0, 0];
+  
   const ratings = [
-    { star: '5 star', percentage: starPercentages[4] },
-    { star: '4 star', percentage: starPercentages[3] },
-    { star: '3 star', percentage: starPercentages[2] },
-    { star: '2 star', percentage: starPercentages[1] },
-    { star: '1 star', percentage: starPercentages[0] },
+    { star: '5 star', percentage: validStarPercentages[4] },
+    { star: '4 star', percentage: validStarPercentages[3] },
+    { star: '3 star', percentage: validStarPercentages[2] },
+    { star: '2 star', percentage: validStarPercentages[1] },
+    { star: '1 star', percentage: validStarPercentages[0] },
   ];
 
   return (

@@ -13,7 +13,6 @@ import BuyNow from '../../../Components/Buttons/BuyNow';
 import { useData } from '../../../../../Context/MyContext';
 import { GrClose } from "react-icons/gr";
 
-
 const QuickView = ({ id, isVisible, hide }) => {
   const [mainImage, setMainImage] = useState('');
   const [activeImage, setActiveImage] = useState('');
@@ -58,13 +57,13 @@ const QuickView = ({ id, isVisible, hide }) => {
   return (
     <section className="quickView-overlay" onClick={handleOutsideClick}>
       <div className="container">
-      <div className="closeBtn" onClick={handleOutsideClick}><GrClose /></div>
+        <div className="closeBtn" onClick={handleOutsideClick}><GrClose /></div>
         <div ref={modalRef} className="product col-lg-12" onClick={e => e.stopPropagation()}>
           <div className="row">
             <div className="productImagefull col-lg-6">
-              <div className="productImage ">
+              <div className="productImage">
                 <div className="subImages">
-                  {product.productImages.map((item, index) => (
+                  {product.productImages?.map((item, index) => (
                     <img
                       key={index}
                       src={item}
@@ -85,18 +84,23 @@ const QuickView = ({ id, isVisible, hide }) => {
                 <div className="productrating d-flex gap-3">
                   <Link to="#" className='rate-link-hover'>3.7
                     <div className="rating-hover-product">
-                      <RatingHover />
+                      <RatingHover
+                        averageRating={product.averageRating}
+                        totalReviews={product.totalReviews}
+                        starPercentages={product.starPercentages}
+                      />
                     </div>
                   </Link>
-                  <p>806 ratings</p>
+                  <p>Visit the {product.brand} Store</p>
+                  <p>{product.totalReviews} ratings</p>
                 </div>
                 <div className="productdesc">
-                  <p><b>PRODUCT CODE:</b> SACHIIJBPDGS002  </p>
-                  <p><b>SHIPPING & HANDLING:</b> 180.00  </p>
-                  <p><b>DISCOUNT:</b> 0.00 </p>
-                  <p><b>TIME TO DISPATCH:</b> 2-4 days </p>
-                  <p><b>AVAILABLE ITEMS:</b> 5 </p>
-                  <p><b>DELIVERY METHOD:</b> Courier</p>
+                  <p><b>PRODUCT CODE:</b> {product.productCode}</p>
+                  <p><b>SHIPPING & HANDLING:</b> {product.shippingHandling}</p>
+                  <p><b>DISCOUNT:</b> {product.discount}</p>
+                  <p><b>TIME TO DISPATCH:</b> {product.dispatchTime}</p>
+                  <p><b>AVAILABLE ITEMS:</b> {product.availableItems}</p>
+                  <p><b>DELIVERY METHOD:</b> {product.deliveryMethod}</p>
                 </div>
                 <div className="stock">
                   <p>in stock</p>
@@ -123,7 +127,7 @@ const QuickView = ({ id, isVisible, hide }) => {
                 <div className="size">
                   <h4>size :</h4>
                   <ul>
-                    {product.size.map((size, index) => (
+                    {product.size?.map((size, index) => (
                       <li key={index}>{size}</li>
                     ))}
                   </ul>
