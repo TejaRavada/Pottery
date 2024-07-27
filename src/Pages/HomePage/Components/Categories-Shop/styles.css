@@ -1,0 +1,117 @@
+.categories {
+    background: #dcefff;
+    padding: 5px 0px;
+}
+
+.categories-full .categ-hd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.categories-full .categ-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.categories-full .categ-cards .categories-card {
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.categories-full .categ-cards .categories-card .categories-img {
+    overflow: hidden;
+
+}
+
+.categories-full .categ-cards .categories-card .categories-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.categories-full .categ-cards .categories-card .categories-img img:hover {
+    transform: scale(1.1);
+}
+
+.categories-full .categ-cards .categories-card .categories-text {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.6) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.categories-full .categ-cards .categories-card .categories-text h3 {
+    color: #fff !important;
+    font-family: "Thasadith", sans-serif;
+    font-size: 30px !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+}
+
+/* --------------------------Banner------------------------------------ */
+.ceramic-Ban-text{
+    margin: 50px 0px;
+}
+.ceramic-Ban-text .ceramic-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+.ceramic-Ban-text .ceramic-banner img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+.ceramic-Ban-text .ceramic-banner img:hover {
+    transform: scale(1.1);
+}
+
+.ceramic-Ban-text .ceramic-banner .ceramic-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.ceramic-Ban-text .ceramic-banner .ceramic-text h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px !important;
+    font-weight: 900 !important;
+    padding: 10px 20px !important;
+    margin: 10px auto !important;
+    width: max-content;
+    font-family: "Thasadith", sans-serif;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.ceramic-Ban-text .ceramic-banner .ceramic-text button {
+    font-size: 25px !important;
+    font-weight: 900 !important;
+    padding: 10px 20px !important;
+    margin-right: 70px;
+}

@@ -1,0 +1,158 @@
+.popular {
+    background-color: #fbf8ed;
+    padding: 5px 0px;
+}
+
+.popular-full .categ-hd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.popular-full .categ-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.popular-full .categ-cards .popular-card {
+    width: 400px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.popular-full .categ-cards .popular-card .popular-img {
+    overflow: hidden;
+
+}
+
+.popular-full .categ-cards .popular-card .popular-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.popular-full .categ-cards .popular-card .popular-img img:hover {
+    transform: scale(1.1);
+}
+
+.popular-full .categ-cards .popular-card .popular-text {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.6) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.popular-full .categ-cards .popular-card .popular-text h3 {
+    color: #fff !important;
+    font-family: "Thasadith", sans-serif;
+    font-size: 30px !important;
+    text-transform: uppercase;
+    font-weight: 500 !important;
+}
+
+/* --------------------------Banner------------------------------------ */
+
+.popular-Ban-text{
+    margin: 50px 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.popular-Ban-text .popular-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    transition: all 0.3s ease-in-out;
+}
+
+.popular-Ban-text .popular-banner img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    object-fit: cover;
+    /* transition: all 0.3s ease-in-out; */
+    /* transform: rotate(45deg); */
+}
+
+/* .popular-Ban-text .popular-banner img:hover {
+    transform: scale(1.1);
+} */
+
+.popular-Ban-text .popular-banner .popular-text {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    background: rgb(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.popular-Ban-text .popular-banner .popular-text h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px !important;
+    font-weight: 900 !important;
+    padding: 10px 20px !important;
+    margin: 10px auto !important;
+    width: max-content;
+    font-family: "Thasadith", sans-serif;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.popular-Ban-text .popular-banner .popular-text button {
+    font-size: 25px !important;
+    font-weight: 900 !important;
+    padding: 10px 20px !important;
+    margin-right: 70px;
+}
+
+.popular-Ban-text:hover .popular-banner{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.most_products
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0px;
+}
+
+.most_products .out-btn
+{
+    border: 2px solid #ff00aa !important;
+    color: #ff00aa !important;
+    padding: 10px 20px;
+    background: none;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.most_products .out-btn:hover
+{
+    background: #fff;
+    border: 2px solid #000000 !important;
+    color: #000000 !important;
+}

@@ -1,0 +1,134 @@
+.rating h2 {
+    font-weight: 600 !important;
+    border: none !important;
+}
+
+/* .rating .rating-cust {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rating .rating-cust h6 {
+    font-size: 20px !important;
+}
+
+.rating .rating-cust p {
+    font-size: 14px !important;
+}
+
+.rating .rating-star {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rating .rating-star .star-range {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating .rating-star .star-range p {
+    margin: 0px;
+    width: 20%;
+    font-weight: 600 !important;
+}
+
+.rating .rating-star .star-range .bar {
+    width: 60%;
+    height: 15px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    position: relative;
+    padding: 10px !important;
+}
+
+.rating .rating-star .star-range .bar:hover {
+    height: 15px;
+    background: #ffc392;
+    border: 1px solid #fca55e;
+    position: relative;
+    cursor: pointer;
+}
+
+.rating .rating-star .star-range .bar1::after {
+    position: absolute;
+    content: "";
+    width: 85%;
+    height: 15px;
+    background: #FFA41C;
+    padding: 10px !important;
+    top: 0;
+    left: 0;
+}
+
+.rating .rating-star .star-range .bar2::after {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 15px;
+    background: #FFA41C;
+    padding: 10px !important;
+    top: 0;
+    left: 0;
+}
+
+.rating .rating-star .star-range .bar3::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 15px;
+    background: #FFA41C;
+    padding: 10px !important;
+    top: 0;
+    left: 0;
+}
+
+.rating .rating-star .star-range .bar4::after {
+    position: absolute;
+    content: "";
+    width: 10%;
+    height: 15px;
+    background: #FFA41C;
+    padding: 10px !important;
+    top: 0;
+    left: 0;
+}
+
+.rating .rating-star .star-range .bar5::after {
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 15px;
+    background: #FFA41C;
+    padding: 10px !important;
+    top: 0;
+    left: 0;
+} */
+
+
+.rating .rating-review {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating .rating-review h3 {
+    font-weight: 600 !important;
+    border: none !important;
+    font-size: 22px !important;
+}
+
+.rating .rating-review p {
+    font-weight: 600 !important;
+    border: none !important;
+    font-size: 14px !important;
+}
+
+.rating .rating-review a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

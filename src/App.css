@@ -1,0 +1,303 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Quicksand", sans-serif !important;
+  color: #253D4E !important;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, a,input
+{
+  list-style: none !important;
+  text-decoration: none !important;
+  margin: 0px !important;
+  border: none !important;
+  outline: none !important;
+  color: #253D4E !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+}
+
+p
+{
+  color: #253D4E !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  text-align: justify;
+}
+
+button 
+{
+  border: none;
+  background: none;
+  outline: none;
+}
+/* -------------------------------------------------- */
+.position-relative
+{
+  position: relative;
+}
+
+.position-absolute
+{
+  position: absolute;
+}
+
+/* ----------------menu dropdown heading */
+
+.menu-Heading{
+  font-size: 20px !important;
+  font-weight: 900 !important;
+  padding: 10px 0px;
+  border-bottom: 1px dotted #6d3500 !important;
+  text-transform: capitalize;
+  width: 100%;
+  margin: 20px 0px !important;
+  font-family: "Thasadith", sans-serif;
+}
+
+.transition
+{
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-btn
+{
+  font-size: 12px !important;
+  color: aliceblue !important;
+  background-color: #ff9898;
+  padding: 5px 20px;
+  /* margin: 10px; */
+  text-transform: capitalize;
+  transition: all 0.3s ease-in-out;
+  margin: 0px;
+}
+
+.menu-btn:hover
+{
+  font-size: 12px !important;
+  color: rgb(0, 32, 59) !important;
+  background-color: #fa4c4c;
+  color: aliceblue !important;
+  cursor: pointer;
+}
+
+.main-heading
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px !important;
+  font-weight: 900 !important;
+  border-bottom: 2px dotted #6d3500 !important;
+  padding: 10px 20px !important;
+  margin: 10px auto !important;
+  width: max-content;
+  font-family: "Thasadith", sans-serif;
+  text-transform: uppercase;
+}
+
+.outline-btn{
+  padding: 10px 20px;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+
+.outline-btn:hover{
+  background: #fff;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.addBtn
+{
+  padding: 10px 20px;
+  /* margin: 10px; */
+  background: #ff9898 !important;
+  border: none;
+  color: #fff !important;
+  width: 100%;
+  font-family: "Thasadith", sans-serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.addBtn:hover
+{
+  background: #fa4c4c !important;
+  color: #fad3d3 !important;
+}
+
+.banner-heading
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px !important;
+  font-weight: 900 !important;
+  border-bottom: 2px dotted #ffffff !important;
+  color: #fff !important;
+  padding: 10px 20px !important;
+  margin: 10px auto !important;
+  width: max-content;
+  font-family: "Thasadith", sans-serif;
+  text-transform: uppercase;
+}
+
+.sub-heading
+{
+  font-size: 35px !important;
+  font-weight: 900 !important;
+  /* border-bottom: 2px dotted #6d3500 !important; */
+  padding: 10px 20px !important;
+  margin: 10px auto !important;
+  /* width: max-content; */
+  font-family: "Thasadith", sans-serif;
+  text-transform: uppercase !important;
+}
+
+.sub-topic-heading
+{
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  border-bottom: 2px dotted #6d3500 !important;
+  padding: 10px 20px !important;
+  margin: 10px 0px !important;
+  font-family: "Thasadith", sans-serif;
+  text-transform: uppercase !important;
+}
+
+.single-topic-heading
+{
+  font-size: 24px !important;
+  border-bottom: 2px dotted #6d3500 !important;
+  padding: 10px 20px !important;
+  margin: 10px 0px !important;
+  font-family: "Thasadith", sans-serif;
+  text-transform: uppercase !important;
+}
+
+/* img
+{
+  max-width: 100%;
+  height: auto;
+} */
+
+.outline-btn-sorry{
+  padding: 10px 20px;
+  background: none;
+  border: 2px solid #070707 !important;
+  color: #000000 !important;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.3s;
+  /* width: 50% !important; */
+  text-align: center !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.outline-btn-sorry:hover{
+  background: #000000;
+  border: 2px solid #ffffff;
+  color: #ffffff !important;
+}
+
+/* --------------------- */
+.input
+{
+  border: 1px solid #ececec !important;
+  padding: 10px;
+  box-shadow: none;
+  padding-left: 20px;
+  font-size: 16px !important;
+  width: 100%;
+  margin: 0px !important;
+  /* font-weight: 300 !important; */
+  text-transform: capitalize !important;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+}
+
+.inputOut
+{
+  border: 1px solid #ececec !important;
+  padding: 10px;
+  box-shadow: none;
+  font-size: 16px !important;
+  width: 100%;
+  margin: 0px !important;
+  /* font-weight: 300 !important; */
+  text-transform: capitalize !important;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: center;
+}
+
+.inputIn
+{
+  box-shadow: none;
+  padding-left: 20px;
+  font-size: 16px !important;
+  width: 100%;
+  margin: 0px !important;
+  /* font-weight: 300 !important; */
+  text-transform: capitalize !important;
+  display: flex;
+}
+
+.addBtn_icon
+{
+  padding: 10px 20px;
+  /* margin: 10px; */
+  /* background: #ff9898 !important; */
+  /* border: none; */
+  /* color: #fff !important; */
+  /* width: 100%; */
+  font-family: "Thasadith", sans-serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  transition: all 0.3s ease-in-out;
+  color: #000000 !important;
+    font-size: 50px !important;
+    width: max-content;
+    background: #fff !important;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.addBtn_icon:hover
+{
+  background: #fa4c4c !important;
+  color: #fad3d3 !important;
+  border: none;
+}
+
+.Toastify__toast-container {
+  z-index: 999999999999999999999;
+  /* -webkit-transform: translate3d(0, 0, var(--toastify-z-index)); */
+  position: fixed;
+  padding: 4px;
+  width: var(--toastify-toast-width);
+  box-sizing: border-box;
+  color: #fff;
+  top: 150px !important;
+}

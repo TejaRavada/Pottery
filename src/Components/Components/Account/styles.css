@@ -1,0 +1,25 @@
+.account-hover .account-hover-full
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.account-hover .account-hover-full a
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.account-hover .account-hover-full a svg
+{
+    font-size: 18px;
+}
+
+.account-hover-full span
+{
+    color: #3f2400;
+    font-weight: 700;
+}

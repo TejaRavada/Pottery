@@ -1,0 +1,138 @@
+.detailsPageTabs {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.detailsPageTabs .customTabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+.detailsPageTabs .customTabs ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.detailsPageTabs .customTabs ul li button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: max-content !important;
+    padding: 10px 20px;
+    background: #ff9898 !important;
+    border: 1px solid transparent; 
+    color: #fff !important;
+    width: 100%;
+    font-family: "Thasadith", sans-serif;
+    text-transform: capitalize;
+    font-weight: 900;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+ .detailsPageTabs .customTabs ul li button.active  {
+    background: #ffffff !important;
+    color: #000 !important; 
+     border: 1px solid #000; 
+}
+
+.detailsPageTabs .customTabs ul li.active {
+    background: #f80000;
+    color: #000; /* Ensure the text color contrasts well with the active background */
+    border: 1px solid #000;
+}
+
+.detailsPageTabs .customTabs ul li button:hover
+{
+  background: #fa4c4c !important;
+  color: #fad3d3 !important;
+  border: 1px solid transparent;
+}
+
+.detailsPageTabs .customTabs .tabContent
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100%;
+}
+
+.detailsPageTabs .customTabs .tabContent h2
+{
+    border: none !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    padding: 0px !important;
+    /* margin: 0px !important; */
+    margin-bottom: 10px !important;
+}
+
+.detailsPageTabs .customTabs .tabContent p
+{
+    border: none !important;
+    font-size: 14px !important;
+    padding: 0px !important;
+    margin-left: 10px !important;
+    margin-bottom: 0px !important;
+}
+
+/*  */
+.tabContent .technicalDetails
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tabContent .technicalDetails table
+{
+
+    width: 100% !important;
+}
+
+.tabContent .technicalDetails table tbody
+{
+
+    width: 100% !important;
+    border: 1px solid #000 !important;
+}
+
+.tabContent .technicalDetails table tbody tr
+{
+    width: 100% !important;
+    gap: 0px !important;
+    border-bottom: none !important;
+}
+
+.tabContent .technicalDetails table tbody tr:not(:last-child)
+{
+    border-bottom: 1px solid #000 !important;
+    width: 100% !important;
+    gap: 0px !important;
+}
+
+.tabContent .technicalDetails table tbody tr th
+{
+    padding: 10px !important;
+    width: 50% !important;
+}
+
+.tabContent .technicalDetails table tbody tr td
+{
+    padding: 10px !important;
+    width: 50% !important;
+    border-left: 1px solid #000;
+}

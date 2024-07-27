@@ -1,0 +1,37 @@
+.showlist .topStrip
+{
+    height: 40px;
+}
+
+.tab_ .btn_{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    background: none;
+    width: max-content;
+    position: relative;
+}
+
+.tab_ .dropdownMenu {
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc !important;
+    z-index: 1;
+    background: #fff;
+    padding: 10px;
+    border-top: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tab_ .dropdownMenu li button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}

@@ -1,0 +1,175 @@
+.dailyBest {
+    margin-bottom: 150px;
+}
+
+.dailyBest .dailyBest_heading {
+    margin-bottom: 30px;
+}
+
+.dailyBest .dailyBest_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.dailyBest .dailyBest_cards .dailyBest_card_list {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 700px;
+}
+
+.dailyBest .dailyBest_cards .dailyBest_card_list .dailyBest_Img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 700px;
+
+}
+
+.dailyBest .dailyBest_cards .dailyBest_card_list .dailyBest_Img img {
+    width: 100%;
+    border-radius: 10px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.dailyBest .dailyBest_cards .dailyBest_card_list .rate {
+    position: absolute;
+    bottom: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+}
+
+.dailyBest .dailyBest_cards .rate .dailyTime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -25px;
+    width: 350px;
+    left: 0;
+    
+}
+
+.dailyBest .dailyBest_cards .rate .dailyTime .boxTime {
+    height: 60px;
+    background: #220000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #220000;
+    padding: 2px 5px;
+    border: 2px solid #fff;
+    border-bottom: none;
+    width: 60px;
+}
+
+.dailyBest .dailyBest_cards .rate .dailyTime .boxTime p {
+    color: #ffffff !important;
+    margin: 0px;
+    font-weight: 700 !important;
+}
+
+.dailyBest .dailyBest_cards .rate .dailyTime .boxTime span {
+    color: #ffffff !important;
+    margin: 0px;
+    font-weight: 400 !important;
+}
+
+.dailyBest .dailyBest_cards .rate .dailyRate {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    border-bottom: 3px solid #200;
+    border-left: 3px solid #200;
+    box-shadow: 0 3px 6px rgba(116, 255, 3, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.dailyBest .dailyBest_cards .rate .productText {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dailyBest .dailyBest_cards .rate .productText a {
+    font-size: 12px !important;
+    color: #adadad !important;
+    margin-bottom: 10px !important;
+}
+
+.dailyBest .dailyBest_cards .rate .productText a:hover {
+    color: #3BB77E !important;
+}
+
+.dailyBest .dailyBest_cards .rate .productText h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+.dailyBest .dailyBest_cards .rate .productText p {
+    color: #B6B6B6 !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+}
+
+.dailyBest .dailyBest_cards .rate .productText p span {
+    text-decoration: none;
+    cursor: pointer;
+    color: #220000;
+    font-size: 14px !important;
+}
+
+.dailyBest .dailyBest_cards .rate .productold_new {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    flex-direction: column;
+}
+
+.dailyBest .dailyBest_cards .rate .productold_new .product_price {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.dailyBest .dailyBest_cards .rate .productold_new .product_price span {
+    margin: 0px;
+    color: #e60000 !important;
+    font-weight: 900 !important;
+    font-size: 20px !important;
+}
+
+.dailyBest .dailyBest_cards .rate .productold_new .product_price .oldPrice {
+    margin: 0px;
+    color: #777777 !important;
+    font-weight: 900 !important;
+    font-size: 15px !important;
+    text-decoration: line-through;
+}
+
+.dailyBest .dailyBest_cards .rate .productold_new .productButt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+

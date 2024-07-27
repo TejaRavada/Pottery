@@ -1,0 +1,191 @@
+.login {
+    margin: 50px 0;
+}
+
+.login .login-fluid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login-fluid .login-Account {
+    text-align: center;
+}
+
+.login .login-fluid .login-Account h2 {
+    font-size: 32px !important;
+}
+
+.login .login-fluid .login-img img {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+}
+
+.login .login-Account {
+    padding: 0 20px;
+}
+
+.login .login-Account h2 {
+    font-size: 32px;
+    margin: 50px 0;
+    text-transform: capitalize;
+}
+
+.login .login-Account .login-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login .login-Account .login-details input {
+    width: 80%;
+    padding: 15px 25px;
+    outline: none;
+    border: 1px solid #000 !important;
+}
+
+.login .login-Account .forget {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 60px;
+}
+
+.login .login-Account .login-btn button {
+    width: 80%;
+    padding: 10px 25px;
+    outline: none;
+    border: 1px solid #000;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.login .login-Account .login-btn button:hover {
+    border: 1px solid #ff9100;
+    background: #ff9100;
+    color: aliceblue;
+}
+
+.login .login-Account .forget .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login .login-Account .login-already {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.login .login-Account .login-already .login-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.login .login-Account .login-new p a {
+    color: rgb(13, 110, 253) !important;
+    font-weight: 500 !important;
+}
+
+.input {
+    position: relative;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+
+.input.success input {
+    border-color: green;
+}
+
+.input.error input {
+    border-color: red;
+}
+
+.input .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon.success {
+    color: green;
+}
+
+.icon.error {
+    color: red;
+}
+
+.error-message {
+    color: red !important;
+    font-size: 12px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+.reset-password-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-password-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.reset-password-content h2 {
+    margin-bottom: 20px;
+}
+
+.reset-password-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.reset-password-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-password-actions button[type="submit"] {
+    background: green;
+    color: white;
+}
+
+.reset-password-actions button[type="button"] {
+    background: red;
+    color: white;
+}

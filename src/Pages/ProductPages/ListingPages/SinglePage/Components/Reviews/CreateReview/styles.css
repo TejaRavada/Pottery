@@ -1,0 +1,165 @@
+.createreview
+{
+    margin: 50px 0px !important;
+}
+
+.createreview .review-write
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.createreview .review-write h2
+{
+    border: none !important;
+    font-weight: 600 !important
+}
+
+/* productreview */
+
+.createreview .review-write .productreview
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.createreview .review-write .productreview .productreview-img
+{
+   width: 100px;
+}
+
+.createreview .review-write .productreview .productreview-img img
+{
+   width: 100%;
+   height: 100px;
+   object-fit: cover;
+}
+
+.createreview .review-write .productreview p
+{
+    margin: 0px;
+    font-size: 14px !important;
+}
+
+.createreview .review-write .over-rating h3
+{
+    border: none !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    padding: 0px !important;
+}
+
+/* features-rating-tab */
+
+.createreview .review-write .features-rating-tab
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.createreview .review-write .features-rating-tab h3
+{
+    border: none !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    padding: 0px !important;
+    text-transform: capitalize !important;
+}
+
+.createreview .review-write .features-rating-tab p
+{
+    font-size: 14px !important;
+    margin: 0px !important;
+    font-weight: 500 !important;
+}
+
+/* storage */
+
+.createreview .review-write .features-rating-tab .storage
+{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.createreview .review-write .features-rating-tab .storage .rate-stor
+{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.createreview .review-write .features-rating-tab .storage .rate-stor p
+{
+    margin: 0px;
+}
+
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use the full height of the viewport */
+  }
+  
+  .custom-file-upload {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px; /* Large + symbol */
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .custom-file-upload:hover {
+    border-color: #888;
+    color: #888;
+  }
+
+ .features-rating-tab .rate-text-name
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+ .review-write .review-sub-btn
+ {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+ }
+
+ .review-write .review-sub-btn a
+ {
+    width: 40%;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .image-previews {
+    width: 500px;
+    display: flex;
+    gap: 10px;
+ }
+
+ .image-previews img {
+    object-fit: cover;
+ }

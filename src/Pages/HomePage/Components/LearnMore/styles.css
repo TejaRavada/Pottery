@@ -1,0 +1,145 @@
+.learnmore
+{
+    padding: 50px 0px;
+    background: #dcefff;
+}
+
+.learnmore .learn-full .learn-heading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.learnmore .learn-full .learn-heading h2 {
+    font-size: 35px !important;
+    border: none !important;
+    text-align: center;
+    display: flex;
+    width: 700px;
+}
+
+.learnmore .learn-full .learn-heading button
+{
+    border: 2px solid #000;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+    width: 200px;
+}
+
+.learnmore .learn-full .learn-heading button:hover
+{
+    color: #ffffff;
+    background: #fa4c4c;
+    transition: all 0.3s ease-in-out;
+}
+
+.learnmore .learn-full .learn-cards{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    cursor: grab;
+    user-select: none;
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+
+}
+
+.learnmore .learn-full .learn-cards:active {
+    cursor: grabbing;
+}
+
+.learnmore .learn-full .learn-cards .learn-card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 10px;
+    width: 400px;
+    cursor: pointer;
+    position: relative;
+}
+
+.learn-card:hover .learn-card-img img
+{
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+    
+}
+
+.learnmore .learn-full .learn-cards .learn-card .learn-card-img
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.learnmore .learn-full .learn-cards .learn-card .learn-card-img img
+{
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+    
+}
+
+.learnmore .learn-full .learn-cards .learn-card .learn-text
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    right: -25px;
+    border: 2px solid #ffffff;
+    transform: rotate(30deg);
+    width: 150px;
+    background: #220000;
+    z-index: 1;
+}
+
+.learnmore .learn-full .learn-cards .learn-card .learn-text h5
+{
+    padding: 20px 10px;
+    color: #fff !important;
+    text-transform: capitalize;
+    font-size: 20px !important;
+}
+
+.learnmore .learn-full .learn-cards .learn-card .learn-card-text 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+
+.learnmore .learn-full .learn-cards .learn-card .learn-card-text p
+{
+    text-align: center;
+    font-size: 18px !important;
+    margin: 10px;
+    font-weight: 700 !important;
+    overflow: hidden;
+    white-space: normal;
+    color: #6d3500 !important;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.learnmore .learn-full .learn-cards .learn-card .learn-card-text p:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #220000;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,185 @@
+
+.footer-top 
+{
+    background: #fbf8ed !important;
+    padding: 50px 0px;
+}
+
+.footer-top .footer-top-main
+{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+gap: 10px;
+}
+
+.footer-top .footer-top-main .main-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    /* margin: 10px; */
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    /* height: 160px; */
+}
+
+.footer-top .footer-top-main .main-img img
+{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 5px solid #000;
+}
+
+.footer-top .footer-top-main .main-img .main-text
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+
+}
+
+.footer-top .footer-top-main .main-img .main-text p
+{
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 12px !important;
+    text-align: center;
+    font-family: "Thasadith", sans-serif;
+}
+
+/* --------------------------Bottom---------------------------- */
+
+.footer-bot
+{
+    background: #232F3E !important;
+    padding: 50px 0px;
+}
+
+.footer-bot .footer-bot-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-bot .footer-bot-main .footer-bot-subscribe
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: sp;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.footer-bot .footer-bot-main .footer-bot-subscribe p
+{
+    /* font-weight: 700 !important; */
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.footer-bot .footer-bot-main .footer-bot-subscribe .footer-bot-iput
+{
+    border-bottom: 3px solid #ffffff !important;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.footer-bot .footer-bot-main .footer-bot-subscribe .footer-bot-iput input
+{
+    padding: 10px 10px;
+    background: none;
+    color: #fff !important;
+
+}
+
+.footer-bot .footer-bot-main .footer-bot-subscribe .footer-bot-iput button svg
+{
+    color: #fff !important;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.footer-bot .footer-bot-main .footer-bot-subscribe .footer-bot-iput button
+{
+    border: none !important;
+    background: none !important;
+}
+
+
+/* footer-bot1 */
+
+.footer-bot1
+{
+    background: #131A22;
+    padding: 50px 0px;
+}
+
+.footer-bot-main1 .footer-bot-contact .footer-part ul li
+{
+    font-weight: 300 !important;  
+}
+
+.footer-bot-main1 .footer-bot-contact .footer-part .footer-add
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;  
+}
+
+.footer-bot-main1 .footer-bot-contact .footer-part ul
+{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.footer-bot-main1 .footer-bot-contact .footer-part ul li
+{
+    color: #fff !important;
+}
+
+
+.footer-bot-main1 .footer-bot-contact
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer-bot-main1 .footer-bot-contact .footer-part
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-bot-main1 .footer-bot-contact .footer-part p
+{
+    margin: 0px;
+    color: #fff !important;
+}
+
+.footer-bot-main1 .footer-bot-contact .footer-part h6
+{
+    margin: 0px;
+    color: #fff !important;
+}

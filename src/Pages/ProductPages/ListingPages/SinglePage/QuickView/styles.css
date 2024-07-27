@@ -1,0 +1,37 @@
+.quickView-overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.quickView-overlay .product
+{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+.closeBtn
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #fff;
+    padding: 10px 30px;
+}
+
+.closeBtn svg
+{
+    font-size: 35px;
+}

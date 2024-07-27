@@ -1,0 +1,331 @@
+.ceramicBlog {
+    margin: 60px 0px;
+}
+
+.ceramicBlog .ceramic-cards{
+    /* margin-top: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    margin: 10px;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+    /* height: 550px; */
+    position: relative;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ------------------------------main img-------------------------------------------- */
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .ceramic-img-hover
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .ceramic-img-hover img
+{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+
+/* ----------------------------- Hover Full Card ---------------------------- */
+
+.ceramicBlog .ceramic-cards .ceramic-card:hover .ceramic-img-card .ceramic-img-hover .img-hover-in, .ceramic-card:hover .quick
+{
+    opacity: 1;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card:hover .ceramic-img-card .ceramic-img-hover .img-hover-in, .ceramic-card:hover .compare
+{
+    opacity: 1;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .ceramic-img-hover .img-hover-in
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+/* ---------------------end--------------------- */
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .ceramic-img-hover .img-hover-in
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .ceramic-img-hover .img-hover-in img
+{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .ceramic-img-hover:hover .img-hover-in img
+{
+    transform: scale(1.1);
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .quick
+{
+    position: absolute;
+    bottom: 200px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card:hover .quick
+{
+    bottom: 250px;
+    opacity: 1;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .compare
+{
+    position: absolute;
+    top: 0px;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    background-color: rgb(255, 152, 152, 0.8);
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    cursor: pointer;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .compare .Comapresvg
+{
+    padding: 10px;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .compare .Comapresvg:hover
+{
+   background-color: #fa4c4c;
+   transition: all 0.3s ease-in-out;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .compare .Comapresvg:not(:last-child)
+{
+    border-bottom: 1px solid #ccc !important;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .compare svg
+{
+    font-size: 20px;
+    color: #fff;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card:hover .compare
+{
+    left: 10px;
+    top: 10px;
+    opacity: 1;
+}
+
+
+/* -----------------------postion Sale and dis---------------------------------- */
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .sale
+{
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    background: #220000;
+    padding: 2px 10px;
+    border: 2px solid #fff;
+    border-top: none;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .sale p
+{
+    color: #fff !important;
+    margin: 0px;
+    font-size: 15px !important;
+    text-transform: capitalize;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .saveper
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #220000;
+    padding: 2px 10px;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-img-card .saveper p
+{
+    color: #fff !important;
+    margin: 0px;
+    font-size: 15px !important;
+    text-transform: capitalize;
+}
+
+/* -----------------------ceramic-card-details-------------------------------------------------------------- */
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-card-details
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-card-details h6
+{
+    height: 40px;
+    margin: 10px 5px !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-card-details p
+{
+    font-size: 15px !important;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-card-details .col_icon
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10px !important;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-card-details .col_icon .coloricon
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-card-details .ceramic-tittle
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-card-details .ceramic-tittle .ceramic-price
+{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    gap: 10px;
+    width: 100% !important;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-card-details .ceramic-tittle .ceramic-price span
+{
+    margin: 0px;
+    color: #777777 !important;
+    font-weight: 900 !important;
+    font-size: 15px !important;
+    text-decoration: line-through;
+}
+
+.ceramicBlog .ceramic-cards .ceramic-card .ceramic-card-details .ceramic-tittle .ceramic-price p
+{
+    margin: 0px;
+    color: #e60000 !important;
+    font-weight: 900 !important;
+    font-size: 20px !important;
+}
+
+.pagination 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px !important;
+    gap: 10px;
+}
+
+.pagination .noBtn
+{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+}
+
+.pagination .nobuttn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.pagination button
+{
+    padding: 10px 20px !important;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.pagination button:hover
+{
+    background-color: #ff9898;
+    color: #fff;
+}
+
+.pagination button.active
+{
+    background-color: #220000 ;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #ff9898;
+}

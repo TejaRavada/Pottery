@@ -1,0 +1,136 @@
+.reviews-say
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reviews-say .review-tab-one h2
+{
+    font-weight: 600 !important;
+    border: none !important;
+    font-size: 20px !important;
+}
+
+.reviews-say .reviews-images
+{
+    display: flex;
+    gap: 20px;
+}
+
+.reviews-say .reviews-images img
+{
+    width: 140px;
+    object-fit: cover;
+    height: 100px !important;
+}
+
+
+.reviews-say .review-tab-one p
+{
+    font-size: 14px !important;
+    margin: 0px;
+}
+
+/*  */
+
+.reviews-say .review-tab-images
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-say .review-tab-images .review-link-tab
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reviews-say .review-tab-images .review-link-tab h2
+{
+    font-weight: 600 !important;
+    border: none !important;
+    font-size: 18px !important;
+}
+
+.reviews-say .review-tab-images .review-link-tab a
+{
+    font-size: 14px !important;
+    margin: 0px;
+}
+
+/*  */
+
+.reviews-say .review-account .review-account-tab
+{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.reviews-say .review-account .review-account-tab .review-img-account
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-say .review-account .review-account-tab .review-img-account .imageaccount
+{
+    width: 40px;
+}
+
+.reviews-say .review-account .review-account-tab .review-img-account .imageaccount img
+{
+    width: 100%;
+    border-radius: 50%;
+    height: 40px;
+    object-fit: cover;
+}
+
+.reviews-say .review-account .review-account-tab .review-img-account p
+{
+    margin: 0px;
+    font-size: 14px !important;
+}
+
+.reviews-say .review-account .review-account-tab .rating-account h6
+{
+    margin: 0px;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+}
+
+.reviews-say .review-account .review-account-tab .rating-account p
+{
+    margin: 0px;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.reviews-say .review-account .review-account-tab .rating-account span
+{
+    margin: 0px;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: #fa4c4c;
+}
+
+
+.reviews-say .review-account .review-text-area p
+{
+    margin: 0px;
+    font-size: 14px !important;
+    font-weight: 700 !important;
+}
+
+.review-btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: c;
+}

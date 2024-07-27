@@ -1,0 +1,52 @@
+.quantity
+{
+    display: flex;
+}
+
+.quantity .quantity-value
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity .quantity-value ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ebebeb !important;
+    padding: 0px;
+}
+
+.quantity .quantity-value ul li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    background: #fa4c4c;
+    color: #fff !important;
+   
+}
+
+.quantity .quantity-value ul li input
+{
+    width: 30px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff !important;
+}
+
+.quantity .quantity-value ul li:not(:last-child)
+{
+    border-right: 1px solid #ebebeb !important;
+}
+
+.quantity .quantity-value ul .Qua
+{
+    background: none;
+    color: black !important;
+}

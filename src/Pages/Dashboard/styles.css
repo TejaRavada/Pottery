@@ -1,0 +1,247 @@
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 100px 0px;
+}
+
+.dashboard-right-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.dashboard-right-full a {
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: center;
+    font-weight: 700 !important;
+    gap: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dashboard-right-full a.active {
+    background: #fa4c4c;
+    color: #ffffff !important; /* Ensure the text color contrasts well with the active background */
+    border: 1px solid transparent ;
+}
+
+.dashboard-right-full a:hover {
+    background: #ff9898;
+    color: #ffffff !important; /* Ensure the text color contrasts well with the active background */
+    border: 1px solid transparent ;
+}
+
+.dashboard-left-full .dashboard-part a {
+    color: #6d3500 !important;
+}
+
+/* ----------------------------- */
+
+.order {
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.order .sub-heading {
+    width: 100% !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.order .tableorder {
+    width: 100% !important;
+    display: flex;
+}
+
+.order .tableorder table {
+    width: 100% !important;
+}
+
+.order .tableorder table thead tr,
+tbody tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100% !important;
+    gap: 20px;
+    border-bottom: 1px dotted #6d3500 !important;
+}
+
+.order .tableorder table thead tr th {
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    font-family: "Thasadith", sans-serif;
+
+}
+
+.order .tableorder table tbody tr td {
+    font-size: 14px !important;
+    font-weight: 900 !important;
+    padding: 10px 0px;
+    text-transform: capitalize;
+    font-family: "Thasadith", sans-serif;
+
+}
+
+/* track order */
+
+.track-your-order .track-orderID {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.track-your-order .track-orderID .tracking-orderID {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.track-your-order .track-orderID .tracking-orderID label {
+    font-size: 18px !important;
+}
+
+.track-your-order .track-orderID .tracking-orderID input {
+    width: 80%;
+    font-size: 14px !important;
+}
+
+.track-your-order a {
+    width: 80% !important;
+}
+
+.myaddress {
+    justify-content: space-around;
+}
+
+.myaddress .billing-add h2 {
+    font-size: 30px !important;
+}
+
+.myaddress .billing-add .address {
+    margin-left: 50px;
+}
+
+.address {
+    margin-bottom: 60px !important;
+    margin-left: 50px;
+}
+/* account-details */
+
+.account-details
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.account-details .account-det
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.account-details .account-det .account-Name
+{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.account-details .account-det .account-input
+{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.account-submit
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dashboard-part
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.imga
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.imga .proimg
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.proimg
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.address-edit
+{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.address-edit .Add_btn
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.address-edit .account-input
+{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.address-edit .account-input input {
+    border: 1px solid #ececec !important;
+    padding: 10px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px !important;
+    width: 100%;
+    margin: 0px !important;
+    /* font-weight: 300 !important; */
+    text-transform: capitalize !important;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+.Add_btn
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}

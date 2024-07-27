@@ -1,0 +1,66 @@
+
+.mostProduct
+{
+    position: relative;
+    border-top: 2px solid #fff;
+    padding: 100px 0px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.mostProduct::after
+{
+    content:'';
+    background-image: url(./Assests/BackgroundImg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+    top:0px;
+    left: 0px;
+    width:100%;
+    height:100%;
+    z-index:-1;
+    /* opacity: 0.8; */
+    filter: blur(3px);
+
+}
+
+.mostProduct .most-Prod-heading {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 0px 20px;
+    flex-direction: column;
+}
+
+.mostProduct .most-Prod-heading h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.mostProduct .most-Prod-heading ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff !important;
+    font-weight: 400 !important;
+}
+
+.mostProduct .most_products_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mostbtn
+{
+    border: none;
+    background: none;
+    color: white;
+    outline: none;
+}

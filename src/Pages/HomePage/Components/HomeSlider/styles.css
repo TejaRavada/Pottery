@@ -1,0 +1,156 @@
+.homeSlider {
+    width: 100%;
+    background: #fbf8ed;
+    position: relative;
+}
+
+.home_slider_main {
+    overflow: hidden;
+    position: relative;
+}
+
+.homeSlider img {
+    width: 100%;
+    object-fit: cover;
+    height: 600px;
+}
+
+.home_slider_main .slide {
+    text-align: center;
+    /* Centers the image in the slide */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 30%;
+    /* Center vertically in the slider */
+    left: 10%;
+    /* Center horizontally in the slider */
+    color: rgb(0, 0, 0);
+    /* High contrast color for visibility */
+    font-size: 1.5rem;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 10px;
+    z-index: 10;
+    /* Ensures the text is above the slides */
+}
+
+.overlay-text form h2 {
+    color: #000000 !important;
+    margin: 20px;
+    border: none !important;
+    font-size: 60px !important;
+    font-weight: 900 !important;
+}
+
+.overlay-text form p {
+    color: #6d3500 !important;
+    margin: 20px;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+
+.overlay-text .btn-banner {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.overlay-text form .subscribe-btn {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.overlay-text form .subscribe-btn input {
+    border: none !important;
+    background: #fff;
+    outline: none !important;
+    width: 100%;
+    position: relative;
+    border-radius: 0px 30px ;
+    padding: 10px 20px  !important;
+}
+
+.overlay-text form .subscribe-btn button {
+    border: none !important;
+    background: #6d3500;
+    outline: none !important;
+    padding: 10px;
+    font-weight: 700 !important;
+    text-align: end;
+    display: flex;
+    color: #fbf8ed;
+    justify-content: center !important;
+    width: 20%;
+    border-radius: 0px 30px ;
+    position: absolute;
+}
+
+.overlay-text form .subscribe-btn button:hover {
+    background: #fa4c4c;
+    color: #fff !important;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 47%;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50% !important;
+    /* background: #fff !important; */
+    z-index: 100 !important;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border: 2px solid #fff;
+}
+
+.slick-arrow.slick-next {
+    right: 2% !important;
+}
+
+.slick-arrow.slick-prev {
+    left: 2% !important;
+}
+
+.slick-prev:before {
+    /* content: "\f104" !important; */
+    content: '←' !important;
+    font-family: FontAwesome !important;
+    font-size: 20px !important;
+    color: #fdfdfd !important;
+
+}
+
+.slick-next:before {
+    /* content: "\f105" !important; */
+    content: '→' !important;
+    font-family: FontAwesome !important;
+    font-size: 20px !important;
+    color: #ffffff !important;
+}
+
+.slick-arrow:hover {
+    background: #ffffff !important;
+}
+
+.slick-arrow:hover::before {
+    color: #000000 !important;
+}
+
+.home_slider_main .slick-dots {
+    position: absolute;
+    bottom: 30px !important;
+}
+
+.home_slider_main .slick-dots button::before {
+    width: 10px !important;
+    height: 10px !important;
+    font-size: 16px !important;
+}
+
+.slick-active button::before {
+    color: #6d3500 !important;
+}

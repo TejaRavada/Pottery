@@ -1,0 +1,88 @@
+.info-contact
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-contact .info-heading .info-cont h2{
+    font-size: 20px !important;
+    text-transform: capitalize;
+    font-family: "Thasadith", sans-serif;
+}
+
+.info-contact .info-heading .info-acc p, a{
+    font-size: 14px !important;
+    text-transform: capitalize;
+}
+
+.info-contact .info-check p
+{
+    font-size: 14px !important;
+    text-transform: capitalize;
+}
+.info-shipping
+{
+    margin: 20px 0px;
+}
+
+.info-shipping .shipping-heading
+{
+    width: 100% !important;
+}
+
+.info-shipping .shipping-heading .info-shipp h2
+{
+    font-size: 20px !important;
+    text-transform: capitalize;
+    font-family: "Thasadith", sans-serif;
+}
+
+.info-shipping .shipping-heading .shipping-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+    gap: 20px;
+}
+
+.info-shipping .shipping-heading .shipping-inputs .shipp-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+    gap: 20px;
+}
+
+.info-shipping .shipping-heading .shipping-inputs .shipping-names{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    gap: 20px;
+}
+
+.shipping-heading .info-check
+{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.shipping-heading .info-check p
+{
+    margin: 0px;
+    text-transform: capitalize;
+}
+
+.shipping-return .shipping-cart-back p
+{
+    font-size: 14px !important;
+}
+
+.shipping-return .shipping-cart-back .continue-pay-btn a
+{
+    font-size: 14px !important;
+}

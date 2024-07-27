@@ -1,0 +1,194 @@
+.howWe_cards {
+    margin: 50px 0px !important;
+    align-items: flex-end !important;
+}
+
+.howWe_cards .howWe_text h4 {
+    margin-bottom: 50px !important;
+}
+
+.howWe_cards .howWe_text h1 {
+    margin-bottom: 30px !important;
+    font-size: 30px !important;
+    font-weight: 500 !important;
+}
+
+.howWe_cards .howWe_text p {
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    color: #7E7E7E !important;
+}
+
+.howWe_cards .howWe_Quest .howWe_Que {
+    margin-bottom: 1.5rem !important;
+}
+
+.howWe_cards .howWe_Quest .howWe_Que h5 {
+    margin-bottom: 20px !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    width: max-content !important;
+    line-height: 1.2;
+    text-align: left;
+    border-bottom: 2px solid #6d3500 !important;
+}
+
+.howWe_cards .howWe_Quest .howWe_Que p {
+    margin-bottom: 0 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    color: #7E7E7E !important;
+    text-align: left;
+}
+
+/* ------------------------------------------------------ */
+.address
+{
+    margin-bottom: 60px !important;
+}
+.address .address_cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.address .address_cards .address_card 
+{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.address .address_cards .address_card  h4 {
+    margin-bottom: 15px !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    line-height: 1.2;
+}
+
+.address .address_cards .address_card  p {
+    color: #7E7E7E !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.address .address_cards .address_card .but-link {
+    margin-top: 20px !important;
+    padding: 10px 25px;
+    text-align: right;
+}
+
+/* -------------------------------- */
+
+.contactForm
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 60px 0px;
+    width: 100%;
+}
+
+.contactForm .contactFrom_img
+{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    /* height: 685px; */
+}
+
+.contactForm .contactFrom_img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contactForm .contactFrom_text{
+    width: 50%;
+}
+
+.contactForm .contactFrom_text h5{
+    margin-bottom: 20px !important;
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.contactForm .contactFrom_text h2{
+    margin-bottom: 10px !important;
+    font-size: 30px !important;
+    color: #253D4E !important;
+    font-weight: 700 !important;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.contactForm .contactFrom_text p {
+    margin-bottom: 30px !important;
+    font-size: 14px !important;
+    color: #B6B6B6 !important;
+    --bs-text-opacity: 1;
+    font-weight: 400 !important;
+    line-height: 24px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.contactForm .contactFrom_text .contactFrom_From
+{
+    margin-top: 30px !important;
+}
+
+.contactForm .contactFrom_text .contactFrom_From .contactInput
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.contactForm .contactFrom_text .contactFrom_From .contactInput input {
+    border: 1px solid #ececec !important;
+    height: 64px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px !important;
+    width: 100%;
+    margin-bottom: 20px !important;
+    font-weight: 300 !important;
+}
+
+.contactForm .contactFrom_text .contactFrom_From .sendMes
+{
+    margin-bottom: 0px;
+}
+
+.contactForm .contactFrom_text .contactFrom_From .sendMes textarea {
+    border: 1px solid #ececec;
+    /* border-radius: 10px; */
+    /* height: 50px; */
+    box-shadow: none;
+    padding: 10px 10px 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+
+.contactForm .contactFrom_text .contactFrom_From .sendMes button {
+    font-size: 17px;
+    font-weight: 900 !important;
+    padding: 20px 40px;
+    border: none;
+    width: 100%;
+}

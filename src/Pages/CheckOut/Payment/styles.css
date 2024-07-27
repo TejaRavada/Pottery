@@ -1,0 +1,207 @@
+.payment {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 50px auto;
+}
+
+/* -------------------------------------------- */
+
+.payment .payment-right
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.payment .payment-right .payment-billing
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment .payment-billing h2
+{
+    text-transform: capitalize;
+    font-size: 30px !important;
+    font-family: "Thasadith", sans-serif;
+    
+}
+
+/* ---------------------------------------------- */
+
+.payment .payment-right .payment-right-full
+{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0px 10px;
+    margin-right: 50px;
+}
+
+.payment .payment-right .payment-right-full .billing-default
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.payment .payment-right .payment-right-full .billing-default p
+{
+    margin: 0px;
+    text-transform: capitalize;
+}
+
+
+/* ---------------------------------------------- */
+
+.payment-right-full .payment-inputs
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.payment-right-full .payment-inputs input
+{
+    border: 1px solid #ececec !important;
+    padding: 10px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px !important;
+    width: 100%;
+    margin-bottom: 20px !important;
+    /* font-weight: 300 !important; */
+    text-transform: capitalize;
+}
+
+/* ---------------------------------------------------------- */
+
+.payment .payment-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment .payment-left h2{
+    text-transform: capitalize;
+    margin-left: 50px !important;
+}
+
+/* --------------------------------------------------------------- */
+
+.payment .payment-left-full {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.payment .payment-left-full .billing-default{
+    display: block;
+}
+
+.payment .payment-left-full .billing-default p{
+    text-transform: capitalize;
+}
+
+/* ------------------------------------------- */
+
+.payment .payment-left-full .billing-altern
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+/* -------------------------------------------------- */
+
+.payment .payment-left-full .payment-inputs
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin: 50px 0px;
+    width: 100%;
+}
+
+.payment .payment-left-full .payment-inputs label
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 200px;
+    width: 25%;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.payment .payment-left-full .payment-inputs .cardnumber
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+}
+
+.payment .payment-left-full .payment-inputs .cardnumber .pay-input
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment .payment-left-full .payment-inputs .cardnumber .pay-input input
+{
+    border: 1px solid #ececec !important;
+    padding: 10px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px !important;
+    width: 100%;
+    margin: 0px !important;
+    /* font-weight: 300 !important; */
+    text-transform: capitalize;
+}
+
+/* --------------------------------------------------------- */
+
+
+.payment .payment-left-full .payment-inputs .cardnumber a
+{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.payment .payment-left-full .payment-inputs .cardnumber a svg
+{
+    font-size: 30px;
+}
+
+/* ---------------------------------------------------------- */
+
+.payment .payment-left-full .order
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto !important;
+    width: 100% !important;
+}

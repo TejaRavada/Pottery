@@ -1,0 +1,117 @@
+.cart_header_full {
+    position: sticky !important;
+    top: 0px;
+    z-index: 9999999;
+    transition: all 0.3s ease-in-out;
+}
+
+.cart_header {
+    /* height: 100px; */
+    /* background-color: rgb(253, 246, 238); */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+    transition: transform 0.2s ease;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+.cart-header-in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.cart-header-in .nav-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+}
+
+.cart-header-in .nav-icons .cart {
+    position: relative;
+}
+
+.cart-header-in .nav-icons svg {
+    font-size: 30px;
+}
+
+.cart-header-in .nav-icons .cart .cartContent {
+    background-color: #ff0000;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 100%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+
+.cart-header-in .cart-process {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-header-in .cart-process .cartline {
+    width: 100px;
+    height: 5px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-header-in .cart-process .cart-items p {
+    margin: 0px !important;
+}
+
+
+.cart-header-in {
+    position: relative;
+}
+
+/* ------------------------ */
+
+.cart-header-in .account-hover {
+    position: absolute;
+    right: 50px;
+    top: calc(100% + 10px);
+    z-index: 999;
+    width: max-content;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 10px 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-top: 5px solid #6d3500 !important;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+}
+
+
+.cart-header-in .nav-icons .nav-icon-account:hover .account-hover {
+
+    opacity: 1;
+    visibility: visible;
+    top: calc(100% + 10px);
+}
+
+/* ------------------------------------------ */
+
+.nav-icon-account img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}

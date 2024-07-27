@@ -1,0 +1,97 @@
+.SorryPayment
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.SorryPayment .sorry-full
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    height: 100vh;
+}
+
+/* ------------------------------------- */
+
+.SorryPayment .sorry-full .pay-sorry
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.SorryPayment .sorry-full .pay-sorry svg
+{
+    font-size: 45px;
+    color: red;
+}
+
+.SorryPayment .sorry-full .pay-sorry h2
+{
+    color: red !important;
+    font-size: 45px !important;
+    text-transform: capitalize;
+    border: none !important;
+}
+
+/* ------------------------------------- */
+
+.SorryPayment .sorry-full .pay-failed
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+}
+
+.SorryPayment .sorry-full .pay-failed h5
+{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400 !important;
+}
+
+/* ------------------------------------- */
+
+.SorryPayment .sorry-full .pay-Query
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+/* ------------------------------------- */
+
+.SorryPayment .sorry-full .pay-back
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.SorryPayment .sorry-full .pay-back a
+{
+    margin: 0px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* ------------------------------------- */

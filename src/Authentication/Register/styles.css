@@ -1,0 +1,190 @@
+.register{
+    margin: 50px 0px;
+}
+
+.register .register-fluid
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register .register-fluid .register-Account
+{
+    padding: 0px 20px;
+}
+
+.register .register-fluid .register-Account h2
+{
+    font-size: 32px !important;
+    text-align: center;
+}
+
+.register .register-fluid .register-img img
+{
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+}
+
+.register .login-register h2
+{
+    font-size: 32px;
+    margin: 50px 0px;
+    text-transform: capitalize;
+}
+
+.register .register-Account .register-details
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.register .register-Account .register-details .input
+{
+    width: 80%;
+    padding: 15px 25px;
+    outline: none;
+    border: 1px solid #000 !important;
+    position: relative;
+}
+
+/*  */
+.error.error-message
+{
+    font-size: 12px !important;
+    color: red !important ;
+}
+
+.error-message {
+    margin: 0px !important;
+    color: red !important;
+    font-size: 12px !important;
+    visibility: hidden; /* Hide error messages by default */
+    height: 15px;
+    width: 80%;
+}
+
+.error-message.visible {
+    visibility: visible; /* Show error messages when there is an error */
+}
+
+.input.success input {
+    border-color: green;
+}
+
+.input.error input {
+    border-color: red;
+}
+
+.input .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon.success {
+    color: green;
+}
+
+.icon.error {
+    color: red;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+/*  */
+
+.dName
+{
+    margin-bottom: 25px !important;
+}
+
+.register .register-Account .register-policy
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 60px;
+    gap: 10px;
+
+}
+
+.register .register-Account .register-btn
+{
+    text-align: center;
+}
+
+.register .register-Account .register-btn button
+{
+    width: 80%;
+    padding: 10px 25px;
+    outline: none;
+    border: 1px solid #000;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.register .register-Account .register-btn button:hover
+{
+    border: 1px solid #ff9100;
+    background: #ff9100;
+    color: aliceblue;
+}
+
+.register .register-Account .register-policy .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.register .register-Account .register-already
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.register .register-Account .register-already span a
+{
+    color: rgb(13, 110, 253) !important;
+}
+
+.register .register-Account .register-already .register-social
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.register .register-Account .register-terms p
+{
+    text-transform: capitalize;
+}
+
+.register .register-Account .register-terms p a
+{
+    color: rgb(13, 110, 253) !important;
+    font-weight: 500 !important;
+}
+
+
+/*  */
+

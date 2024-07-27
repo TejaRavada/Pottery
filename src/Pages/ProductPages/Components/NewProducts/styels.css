@@ -1,0 +1,112 @@
+.trending {
+    margin: 50px 0px;
+    position: relative;
+    padding: 30px;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.trending .top_Rated .top_Rated_card .top_Rated_heading {
+
+    padding: 20px 0px;
+    position: relative;
+}
+
+.trending .top_Rated .top_Rated_card .top_Rated_heading h5::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #6d3500;
+}
+
+.trending .top_Rated .top_Rated_card .top_Rated_heading h5 {
+    position: relative;
+    border-bottom: 1px solid #ececec !important;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700 !important;
+    display: flex;
+    align-items: end;
+    color: #253D4E !important;
+    padding-left: 0px !important;
+}
+
+.top_Rated_card .TrendNow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top_Rated_card .TrendNow .top_Rated_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TrendNow .top_Rated_items:not(:last-child) {
+    margin-bottom: 10px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.15);
+    padding-bottom: 10px;
+}
+
+.TrendNow .top_Rated_items
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.TrendNow .top_Rated_items .top_Rated_img
+{
+    width: 100px;
+}
+
+.TrendNow .top_Rated_items .top_Rated_img img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+.TrendNow .top_Rated_items .productText
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.TrendNow .top_Rated_items .productText h4
+{
+    font-size: 18px !important;
+    font-family: "Thasadith", sans-serif;
+    text-transform: capitalize;
+}
+
+.TrendNow .top_Rated_items .productText p
+{
+    margin: 0px !important;
+    font-size: 14px !important;
+}
+
+.TrendNow1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.TrendNow1 .top_Rated_items .top_Rated_img {
+    width: 100px;
+    height: 100pz;
+}
+
+.TrendNow1 .top_Rated_items .top_Rated_img img {
+    width: 100%;
+    object-fit: cover;
+}
